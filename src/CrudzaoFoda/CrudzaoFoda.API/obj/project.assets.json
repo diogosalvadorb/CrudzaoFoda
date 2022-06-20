@@ -72,6 +72,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CrudzaoFoda.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CrudzaoFoda.Domain": "1.0.0",
+          "CrudzaoFoda.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrudzaoFoda.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrudzaoFoda.Application.dll": {}
+        }
+      },
+      "CrudzaoFoda.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CrudzaoFoda.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrudzaoFoda.Domain.dll": {}
+        }
+      },
+      "CrudzaoFoda.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CrudzaoFoda.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrudzaoFoda.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrudzaoFoda.Persistence.dll": {}
+        }
       }
     }
   },
@@ -200,10 +237,26 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "CrudzaoFoda.Application/1.0.0": {
+      "type": "project",
+      "path": "../CrudzaoFoda.Application/CrudzaoFoda.Application.csproj",
+      "msbuildProject": "../CrudzaoFoda.Application/CrudzaoFoda.Application.csproj"
+    },
+    "CrudzaoFoda.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CrudzaoFoda.Domain/CrudzaoFoda.Domain.csproj",
+      "msbuildProject": "../CrudzaoFoda.Domain/CrudzaoFoda.Domain.csproj"
+    },
+    "CrudzaoFoda.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../CrudzaoFoda.Persistence/CrudzaoFoda.Persistence.csproj",
+      "msbuildProject": "../CrudzaoFoda.Persistence/CrudzaoFoda.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CrudzaoFoda.Application >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -233,7 +286,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\diogo\\Github\\CrudzaoFoda\\src\\CrudzaoFoda\\CrudzaoFoda.Application\\CrudzaoFoda.Application.csproj": {
+              "projectPath": "C:\\Users\\diogo\\Github\\CrudzaoFoda\\src\\CrudzaoFoda\\CrudzaoFoda.Application\\CrudzaoFoda.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
