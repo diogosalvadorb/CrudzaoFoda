@@ -1,0 +1,12 @@
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\bin\Debug\net6.0\CrudzaoFoda.Domain.deps.json
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\bin\Debug\net6.0\CrudzaoFoda.Domain.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\bin\Debug\net6.0\CrudzaoFoda.Domain.pdb
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.csproj.AssemblyReference.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.AssemblyInfoInputs.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.AssemblyInfo.cs
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.csproj.CoreCompileInputs.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\refint\CrudzaoFoda.Domain.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\CrudzaoFoda.Domain.pdb
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Domain\obj\Debug\net6.0\ref\CrudzaoFoda.Domain.dll

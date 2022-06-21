@@ -1,0 +1,17 @@
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Persistence.deps.json
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Persistence.runtimeconfig.json
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Persistence.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Persistence.pdb
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Domain.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\bin\Debug\net6.0\CrudzaoFoda.Domain.pdb
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.csproj.AssemblyReference.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.AssemblyInfoInputs.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.AssemblyInfo.cs
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.csproj.CopyComplete
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\refint\CrudzaoFoda.Persistence.dll
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.pdb
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\CrudzaoFoda.Persistence.genruntimeconfig.cache
+C:\Users\diogo\Github\CrudzaoFoda\src\CrudzaoFoda\CrudzaoFoda.Persistence\obj\Debug\net6.0\ref\CrudzaoFoda.Persistence.dll
