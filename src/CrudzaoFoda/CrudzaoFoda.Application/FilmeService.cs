@@ -12,16 +12,20 @@ namespace CrudzaoFoda.Application
     public class FilmeService : IFilmeService
     {
         private readonly IFilmesPersist _filmePersist;
-        public FilmeService(IFilmesPersist filmePersist)
+        private readonly IGeralPersist _geralPersist;
+        public FilmeService(IFilmesPersist filmePersist,
+                            IGeralPersist geralPersist)
         {
             _filmePersist = filmePersist;
+            _geralPersist = geralPersist;
         }
+
         public async Task<Filme> AddFilme(Filme model)
         {
             try
             {
-                _filmePersist.Add<Filme>(model);
-                if (await _filmePersist.SaveChangesAsync())
+                _geralPersist.Add<Filme>(model);
+                if (await _geralPersist.SaveChangesAsync())
                 {
                     return await _filmePersist.GetFilmeByIdAsync(model.Id);
                 }
@@ -42,8 +46,8 @@ namespace CrudzaoFoda.Application
 
                 model.Id = filme.Id;
 
-                _filmePersist.Update(model);
-                if (await _filmePersist.SaveChangesAsync())
+                _geralPersist.Update<Filme>(model);
+                if (await _geralPersist.SaveChangesAsync())
                 {
                     return await _filmePersist.GetFilmeByIdAsync(model.Id);
                 }
@@ -62,8 +66,8 @@ namespace CrudzaoFoda.Application
                 var filme = await _filmePersist.GetFilmeByIdAsync(id);
                 if (filme == null) throw new Exception("Filme não encontrado.");
 
-                _filmePersist.Delete<Filme>(filme);
-                return await _filmePersist.SaveChangesAsync();
+                _geralPersist.Delete<Filme>(filme);
+                return await _geralPersist.SaveChangesAsync();
             }
             catch (Exception ex)
             {

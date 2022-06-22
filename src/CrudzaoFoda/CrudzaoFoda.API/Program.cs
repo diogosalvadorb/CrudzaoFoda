@@ -14,6 +14,7 @@ builder.Services.AddDbContext<FilmeDbContexto>(options =>
 builder.Services.AddControllers();
 builder.Services.AddScoped<IFilmeService, FilmeService>();
 builder.Services.AddScoped<IFilmesPersist, FilmesPersist>();
+builder.Services.AddScoped<IGeralPersist, GeralPersist>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
